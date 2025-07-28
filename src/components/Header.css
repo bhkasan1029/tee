@@ -1,0 +1,27 @@
+.scrapbook-header {
+    background-color: #f4e1d2; /* light brown */
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px dashed #a83232; /* scrapbooky red line */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #a83232; /* red */
+    font-size: 1.2rem;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .nav-links a:hover {
+    color: #7c1f1f;
+  }
+  

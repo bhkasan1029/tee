@@ -1,0 +1,38 @@
+/* src/pages/ComplimentGallery.css */
+
+.compliment-page {
+    padding: 3rem 2rem;
+    background: #fff8f5;
+    min-height: 100vh;
+  }
+  
+  .compliment-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: "Dancing Script", cursive;
+    color: #c64545;
+  }
+  
+  .compliment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .compliment-card {
+    background: #ffeaea;
+    border-radius: 16px;
+    padding: 1rem;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background 0.3s ease;
+    font-family: 'Segoe UI', cursive;
+    color: #4a2d2d;
+  }
+  
+  .compliment-card:hover {
+    transform: scale(1.05);
+    background: #ffdada;
+  }
+  

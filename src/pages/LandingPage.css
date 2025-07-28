@@ -1,0 +1,66 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Handlee&display=swap');
+
+/* Background and Layout */
+.landing {
+  height: 100vh;
+  background-color: #f3e5dc; /* light paper brown */
+  background-image: url('/public/texture-paper.jpg'); /* optional */
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Content Wrapper */
+.landing-content {
+  text-align: center;
+  background: rgba(255, 248, 240, 0.9); /* soft paper box */
+  border: 2px dashed #d7a878;
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  box-shadow: 5px 5px 0px #c49b77;
+  max-width: 500px;
+}
+
+/* Title */
+.landing-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.7rem;
+  color: #a03333; /* scrapbooky red */
+  margin-bottom: 1rem;
+}
+
+/* Subtitle */
+.landing-subtitle {
+  font-family: 'Handlee', cursive;
+  font-size: 1.3rem;
+  color: #5f3e2d;
+  margin-bottom: 2rem;
+}
+
+/* Button */
+.landing-button {
+  padding: 0.85rem 1.75rem;
+  background: #a03333; /* red */
+  color: #fffaf5;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 4px 4px 0px #6e2323;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.landing-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 6px 6px 0px #4c1b1b;
+}
+
+.landing-button:active {
+  transform: translateY(1px);
+  box-shadow: 2px 2px 0px #4c1b1b;
+}
