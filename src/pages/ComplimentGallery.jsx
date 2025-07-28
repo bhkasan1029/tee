@@ -45,7 +45,7 @@ const compliments = [
   "You're the perfect combination of a bully plus lover.",
   "u never judge me talking to u is the easiest thing.",
   "u dont talk a lot about ur feelings but ur really strong ily",
-  "You're my everything i love you babe."
+  "The fact that i didnt need gpt to write these many compliments,says a lot about you,you're my everything i love you babe."
 ];
 
 const ComplimentGallery = () => {

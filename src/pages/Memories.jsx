@@ -29,13 +29,14 @@ function Memories() {
     { src: img4, caption: "pottery hehe" },
     { src: img5, caption: "tinder worthy pic(not that ull need it)" },
     { src: img6, caption: "u look so glowy and pretty" },
-    { src: img7, caption: "UR ARMS AROUND ME SO CUTE" },
-    { src: img8, caption: "love doing hackathons even thoiss baar ditch kardiya" },
-    { src: img9, caption: "cutie u look" },
    
+
+    { src: img9, caption: "cutie u look" },
+    { src: img7, caption: "UR ARMS AROUND ME SO CUTE" },
     { src: img11, caption: "he looks so tiny YOU ARE SO CUTE" },
     { src: img13, caption: "valentiness" },
     { src: img14, caption: "u look so hot in this sweatshirt" },
+    { src: img8, caption: "love doing hackathons even thoiss baar ditch kardiya" },
     { src: img17, caption: "best kpose" },
    
     { src: img21, caption: "ur so comfyy" },

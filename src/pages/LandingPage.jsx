@@ -6,8 +6,8 @@ const Landing = () => {
   return (
     <div className="landing">
       <div className="landing-content">
-        <h1 className="landing-title">Happy Birthday, Love</h1>
-        <p className="landing-subtitle">A little scrapbook of memories and love</p>
+        <h1 className="landing-title">Happy Birthday, Tee</h1>
+        <p className="landing-subtitle">A little something I made for you , in your love language</p>
         <Link to="/story" className="landing-button">
   Open Scrapbook
 </Link>
